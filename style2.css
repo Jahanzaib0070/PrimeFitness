@@ -1,0 +1,102 @@
+body{
+    background: url(./mainpage-2-gym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 50px;
+}
+.login {
+    margin-top: 10px;
+    width: 400px;
+    height: 610px;
+    background-color: rgba(115, 136, 194, 0.288);
+    border-radius: 18px;
+}
+.form-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form-1 h1{
+    color: #ffffff;
+    font-family: "Aldrich", sans-serif, Verdana;
+    margin-top: 20px;
+}
+.form-1 a{
+    color: #bebee9;
+    text-align: end;
+    margin-bottom: 5px;
+}
+.form-1 input{
+    width: 350px;
+    border-radius: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.form-1 hr{
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 25px;
+    width: 250px;
+    margin-left: 50px;
+}
+.form-1 p{
+    text-align: center;
+    color: white;
+}
+.form-2{
+    display: flex;
+    justify-content: center;
+}
+.form-2 legend{
+    text-align: center;
+}
+
+fieldset {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.linkwithfb img {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.linkwithgoogle {
+    background-color: rgb(214, 170, 157);
+    border-radius: 15px;
+    border: 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkwithgoogle img {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.linkwithfb {
+    background-color: rgb(154, 185, 190);
+    border-radius: 15px;
+    border: 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}

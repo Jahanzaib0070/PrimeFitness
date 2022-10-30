@@ -1,0 +1,132 @@
+body{
+    background: linear-gradient(to bottom, #000428, #004e91);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.main {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.username {
+    margin-top: 10px;
+    width: 390px;
+    height: 565px;
+    background-color: rgba(140, 158, 206, 0.288);
+    border-radius: 18px;
+}
+
+.username h1 {
+    text-align: center;
+}
+
+.Plabel {
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    justify-content: center;
+    margin-left: -180px;
+}
+.Elabel{
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    justify-content: center;
+    margin-left: -201px;
+}
+
+.username input {
+    width: 259px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 1px auto;
+    display: flex;
+    background-color: rgb(229, 238, 234);
+    outline: auto;
+}
+
+
+.username a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    position: relative;
+    margin: 0 auto;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color:#198754;
+    border-color: #198754;
+    text-decoration: none;
+    color: white;
+}
+
+.signup p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+.linkwithfb img {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.linkwithgoogle {
+    background-color: rgb(214, 170, 157);
+    border-radius: 15px;
+    border: 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.linkwithgoogle img {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.linkwithfb {
+    background-color: rgb(154, 185, 190);
+    border-radius: 15px;
+    border: 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+hr{
+    width: 280px;
+}

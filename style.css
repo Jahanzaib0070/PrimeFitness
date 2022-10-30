@@ -1,0 +1,117 @@
+.home {
+    background: linear-gradient(to bottom, #000428, #004e92);
+    height: 100vh;
+}
+
+.home-btn {
+    width: 274px;
+    height: 62px;
+    border-radius: 15px;
+}
+
+.main {
+    background: linear-gradient(to bottom, #000428, #004e92);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.table {
+    background-color: rgba(158, 173, 214, 0.781);
+    border-radius: 20px;
+    overflow: hidden;
+    border-color: none;
+
+}
+
+.table-bordered>:not(caption)>*>* {
+    border-width: 0 0px;
+    padding: 12px 10px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;
+    border-style: none;
+    border-width: 0;
+}
+
+.th {
+    text-align: center;
+    word-break: keep-all;
+}
+
+.image1 {
+    width: 28px;
+    gap: none;
+}
+
+.image2 {
+    width: 22px;
+}
+.user{
+    background: linear-gradient(to bottom, #000428, #004e92);
+    /* height: 100vh; */
+    background-size: cover;
+}
+.update{
+    background: linear-gradient(to bottom, #000428, #004e92);
+    /* height: 100vh; */
+    background-size: cover;
+}
+
+.form{
+    background-color: rgba(140, 158, 206, 0.288);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin-top: 50px;
+}
+h1{
+    color: black;
+}
+label{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+input{
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    color: black ;
+    border: none;
+    width: 270px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: rgb(0 0 0 / 14%);
+    color: var(--bs-table-striped-color);
+}
+.select{
+        padding: 10px;
+        outline: none;
+        border-radius: 20px;
+        color: black ;
+        border: none;
+        width: 270px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    height: 80px;
+}
